@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    font-size: 8vmin;
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+}
+
+#reset, #newGame {
+    height: 6vmin;
+    width: 10vmin;
+    border-radius: 3rem;
+    background-color: rgb(153, 235, 39);
+    margin: 5px;
+}
+
+#winnerMessage {
+    font-size: 2rem;
+    margin: 20px;
+    color: darkred;
+}
+
+#scorey {
+    text-align: end;
+    font-size: larger;
+    height: 8vmin;
+    width: 18vmin;
+    border-radius: 0%;
+    background-color: antiquewhite;
+}
+
+#scorex {
+    text-align: start;
+    font-size: larger;
+    height: 8vmin;
+    width: 18vmin;
+    border-radius: 0%;
+    background-color: antiquewhite;
+}
+
